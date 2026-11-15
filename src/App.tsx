@@ -39,6 +39,9 @@ export default function App() {
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
+          <footer className="text-center py-4 text-sm text-stone-400 border-t border-stone-200">
+            Built with IBM Bob ❤️
+          </footer>
         </div>
         <ToastContainer />
       </AuthProvider>
